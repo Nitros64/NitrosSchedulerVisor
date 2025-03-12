@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Perfect Dark (BRK)';
+    src: url('new_fonts/pdark.ttf');
+}
+
+.text {
+    -fx-font-family: 'Perfect Dark (BRK)';
+    -fx-font-size: 16px;    
+}
+
+#soundtest{
+    -fx-font-family: 'Perfect Dark (BRK)';
+}
+
+.slider .track{
+    -fx-background-color: fff300;
+}
+.slider .thumb{
+    -fx-background-color: #e68400;
+    -fx-pref-height: 25;
+    -fx-background-radius: 5, 1;
+    -fx-background-insets: 0, 2;
+    -fx-padding: 10;
+}

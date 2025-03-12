@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Perfect Dark (BRK)';
+    src: url('new_fonts/pdark.ttf');
+}
+
+.text {
+    -fx-font-family: 'Perfect Dark (BRK)';    
+}
+
+.check-box .box {
+    -fx-background-color: ffd61c;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #e68400;
+}
+
+#labels:hover{    
+    /*-fx-background-color: #2e2f30;
+    -fx-background-color: #1B1A19;*/
+    -fx-background-color: black;
+}

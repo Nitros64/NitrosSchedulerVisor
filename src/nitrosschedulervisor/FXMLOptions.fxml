@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="235.0" prefWidth="420.0" style="-fx-background-color: #1B1A19; -fx-border-color: #ffd61c; -fx-border-width: 5; -fx-border-radius: 3;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nitrosschedulervisor.FXMLOptionsController">
+   <children>
+      <Slider fx:id="soundEffectSlider" blockIncrement="0.1" layoutX="220.0" layoutY="135.0" showTickLabels="true" stylesheets="@../css/soundOptions.css" value="50.0" />
+      <Slider fx:id="musicSlider" layoutX="220.0" layoutY="72.0" showTickLabels="true" stylesheets="@../css/soundOptions.css" value="50.0" />
+      <Label layoutX="51.0" layoutY="71.0" prefHeight="17.0" prefWidth="159.0" stylesheets="@../css/soundOptions.css" text="Music Volume" textFill="#ffd61c" />
+      <Label layoutX="51.0" layoutY="135.0" prefHeight="17.0" prefWidth="152.0" stylesheets="@../css/soundOptions.css" text="Sound Volume" textFill="#ffd61c" />
+      <Label id="soundtest" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="73.0" layoutY="14.0" scaleShape="false" style="-fx-font-size: 25;" stylesheets="@../css/soundOptions.css" text="S o u n d  T e s t" textFill="#fff300ed" />
+      <Label id="labels" layoutX="84.0" layoutY="190.0" onMouseClicked="#defaultClickedMouseEvent" onMouseEntered="#enterMouseEvent" prefHeight="22.0" prefWidth="140.0" style="-fx-font-size: 15;" stylesheets="@../css/estilo_titulo.css" text=" D e f a u l t" textFill="#ffd61c" />
+      <Label id="labels" layoutX="249.0" layoutY="190.0" onMouseClicked="#cancelAction" onMouseEntered="#enterMouseEvent" prefHeight="22.0" prefWidth="132.0" style="-fx-font-size: 15;" stylesheets="@../css/estilo_titulo.css" text=" C a n c e l" textFill="#ffd61c" />
+   </children>
+</AnchorPane>

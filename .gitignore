@@ -1,0 +1,59 @@
+# Directorios de compilación y dependencias
+/bin/
+/build/
+/out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.log
+hs_err_pid*
+
+# Configuraciones de IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Configuraciones de NetBeans
+/nbproject/private/
+/build/
+/dist/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Configuraciones de Eclipse
+.project
+.classpath
+.settings/
+
+# Configuraciones de Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+target/
+dependency-reduced-pom.xml
+release.properties
+
+# Configuraciones de Gradle
+.gradle/
+build/
+.gradle
+gradle-app.setting
+gradle-wrapper.jar
+!gradle-wrapper.jar
+
+# Configuraciones generales del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Librerías JavaFX descargadas (opcional, si se usan localmente)
+javafx-sdk-*/

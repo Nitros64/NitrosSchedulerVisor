@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Perfect Dark (BRK)';
+    src: url('new_fonts/pdark.ttf');
+}
+
+.text {
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 18;   
+}
+
+.combo-box, .text-input{
+   -fx-background-color:  "#ffd61c";
+}
